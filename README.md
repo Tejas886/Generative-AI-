@@ -1,7 +1,7 @@
 AI-Powered RAG Chatbot using Ollama & Qdrant
 A Retrieval-Augmented Generation (RAG) application built using Python, LangChain, Ollama, and Qdrant for document-based question answering.
 
-Features
+**Features**
 PDF document ingestion
 Text preprocessing and chunking
 Embedding generation using Ollama
@@ -15,7 +15,8 @@ Ollama
 Qdrant
 Docker
 YAML
-Project Structure
+
+**Project Structure**
 Rag
 │── ingestion.py
 │── query.py
@@ -24,7 +25,8 @@ Rag
 │── utils/
 │── qdrant_data/
 │── hr_policy_detailed_5_pages.pdf
-Installation
+
+**Installation**
 1. Create Virtual Environment
 python -m venv .venv
 2. Activate Virtual Environment
@@ -44,8 +46,8 @@ ollama serve
 Setup Qdrant using Docker
 docker run -d -p 6335:6333 qdrant/qdrant
 
-Access Qdrant Dashboard:
 
+**Access Qdrant Dashboard:**
 http://localhost:6335/dashboard
 Run the Project
 Ingest Documents
