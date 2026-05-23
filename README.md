@@ -16,7 +16,7 @@ Qdrant
 Docker
 YAML
 Project Structure
-Rag/
+Rag
 │── ingestion.py
 │── query.py
 │── config.yaml
